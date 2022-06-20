@@ -1,0 +1,107 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	background: #f0f4ef;
+}
+h1, h2, h3{
+	font-family: 'Staatliches', cursive;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 45px;
+	letter-spacing: -0.028em;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.dropdown-menu {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	padding: 0;
+}
+.dropdown-menu a {
+	overflow: hidden;
+	outline: none;
+}
+
+.bss-input{
+	border:0;
+	outline: none;
+	color: #000;
+	width: 100%;
+	background-color: #ffffff;
+	font-size: 16px;
+	border-bottom: 2px solid #000000;
+}
+.bss-input::-webkit-input-placeholder{opacity:1; color: #000000;}
+.bss-input:-moz-placeholder{opacity:1; color: #000000;}
+.bss-input::-moz-placeholder{opacity:1; color: #000000;}
+.bss-input:-ms-input-placeholder{opacity:1; color: #000000;}
+.bss-input:hover{
+	background-color: #ffffff;
+}
+.dropdown-item.addItem{
+	background: none;
+	padding: 0;
+	position: relative;
+}
+.addItem .bss-input{
+	height: 40px;
+	padding: 0 1.5rem;
+}
+.addItem:focus{
+	background: none;
+}
+.bootstrap-select .dropdown-menu li a.addItem span.text{
+	display: block;
+}
+.additem .check-mark{
+	opacity: 0;
+	z-index: -1000;
+}
+.addnewicon {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	right: 0;
+	top: 0;
+	line-height: 40px;
+	text-align: center;
+	font-size: 25px;
+	width: 40px;
+	height: 40px;
+	color: #000000;
+}
+.addnewicon:hover {
+	color: #000000;
+}
+.bootstrap-select>.dropdown-toggle{
+	width: 100%;
+	background: #DCEBED !important;
+	box-shadow: none !important;
+	outline: none !important;
+	color: #000000;
+	height: 60px;
+	padding: .375rem 1.5rem;
+	border-radius: 0;
+	border: 2px solid #000000 !important;
+	font-size: 20px;
+}
+.bootstrap-select .dropdown-toggle:focus, .bootstrap-select>select.mobile-device:focus+.dropdown-toggle{
+	outline: none !important;
+	border: 2px solid #000000;
+}
+.dropdown-item{
+	padding: .50rem 1.5rem;
+	color: #000000;
+	font-size: 18px;
+}
+.dropdown-item.active, .dropdown-item:active{
+	background: #000000;
+}
+.bootstrap-select .dropdown-menu{
+	border: 2px solid #000000;
+	border-radius: 0;
+	background: #DCEBED;
+}

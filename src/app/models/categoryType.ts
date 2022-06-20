@@ -1,0 +1,6 @@
+export enum CATEGORYTYPE {
+  DOVIZ = 'DOVIZ',
+  PARITE = 'PARITE',
+  SARRAFIYE = 'SARRAFIYE',
+  GRAM = 'GRAM',
+}
